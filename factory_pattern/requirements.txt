@@ -1,0 +1,2 @@
+# Python 3.11+ is required.
+pytest>=8.0
