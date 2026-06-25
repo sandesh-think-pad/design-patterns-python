@@ -16,5 +16,6 @@ jobs:
         id: pragent
         uses: the-pr-agent/pr-agent@main
         env:
+          OPENAI_KEY: "not_used"
           ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
