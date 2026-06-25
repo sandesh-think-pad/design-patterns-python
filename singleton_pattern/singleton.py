@@ -20,5 +20,5 @@ class DatabaseConnection:
 
     def query(self, sql: str) -> str:
         if not self.connected:
-            raise RuntimeError("Error: Not connected")
+            raise "Error: Not connected"
         return f"Result of: {sql}"
